@@ -1,0 +1,86 @@
+spring:
+  cloud:
+    gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+            allowCredentials: true
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        # 认证中心
+        - id: datax-auth
+          uri: lb://datax-auth
+          predicates:
+            - Path=/auth/**
+          filters:
+            - StripPrefix=1
+            - name: Hystrix
+              args:
+                name: authFallback
+                fallbackUri: forward:/fallback
+        # 系统基础设置中心
+        - id: datax-service-system
+          uri: lb://datax-service-system
+          predicates:
+            - Path=/system/**
+          filters:
+            - SwaggerHeaderFilter
+            - StripPrefix=1
+            - name: Hystrix
+              args:
+                name: systemHystrix
+                fallbackUri: forward:/fallback
+        # 邮件中心
+        - id: datax-service-email
+          uri: lb://datax-service-email
+          predicates:
+            - Path=/email/**
+          filters:
+            - SwaggerHeaderFilter
+            - StripPrefix=1
+            - name: Hystrix
+              args:
+                name: emailHystrix
+                fallbackUri: forward:/fallback
+        # 文件中心
+        - id: datax-service-file
+          uri: lb://datax-service-file
+          predicates:
+            - Path=/file/**
+          filters:
+            - SwaggerHeaderFilter
+            - StripPrefix=1
+            - name: Hystrix
+              args:
+                name: fileHystrix
+                fallbackUri: forward:/fallback
+        # 定时任务
+        - id: datax-service-quartz
+          uri: lb://datax-service-quartz
+          predicates:
+            - Path=/quartz/**
+          filters:
+            - SwaggerHeaderFilter
+            - StripPrefix=1
+            - name: Hystrix
+              args:
+                name: quartzHystrix
+                fallbackUri: forward:/fallback
+        # 代码生成器
+        - id: datax-service-codegen
+          uri: lb://datax-service-codegen
+          predicates:
+            - Path=/codegen/**
+          filters:
+            - SwaggerHeaderFilter
+            - StripPrefix=1
+            - name: Hystrix
+              args:
+                name: codegenHystrix
+                fallbackUri: forward:/fallback
