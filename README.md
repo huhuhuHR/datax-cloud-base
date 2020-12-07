@@ -145,5 +145,4 @@ datax-cloud
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/1203/171124_252d3669_772907.png "image (15).png")
 ## 联系方式
 - QQ: 312075478（备注来源：datax-cloud）
-- 微信：yw_login（备注来源：datax-cloud）
 - 邮箱：312075478@qq.com
