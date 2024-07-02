@@ -1,0 +1,1060 @@
+repo_name: huhuhuHR/datax-cloud-base
+report_id: e25e3b3a659b672dbc191efe42b38c1c
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:28:50+00:00'
+requested_by: yuwei1203
+provider: github
+branch: master
+detected_tools_count: 82
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  version: '1.8'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/pom.xml
+  detection_source: Repo Metadata
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:32:23.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-modules/quartz-service-parent/quartz-service/src/main/resources/db/tables_mysql_innodb.sql
+  detection_source: datax-modules/quartz-service-parent/quartz-service/src/main/resources/db/tables_mysql_innodb.sql
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: Normalize.css
+  description: A modern alternative to CSS resets
+  website_url: https://necolas.github.io/normalize.css/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/6361/default_8c8faac34fdcb5b696503f5166b5232ad0adcf6e.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: Spring Cloud
+  description: Spring helps development teams everywhere build simple, portable,fast
+    and flexible JVM-based systems and applications.
+  website_url: https://spring.io/projects/spring-cloud
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5494/default_b403ef08976083aea6d4caf5a4f19f3325c751e5.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-auth/pom.xml
+  detection_source: datax-auth/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-redis/pom.xml
+  detection_source: datax-common/datax-common-redis/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.6.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: vuex
+  description: Centralized State Management for Vue.js.
+  website_url: https://vuex.vuejs.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/6705/6128107.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-mybatis/pom.xml
+  detection_source: datax-common/datax-common-mybatis/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-redis/pom.xml
+  detection_source: datax-common/datax-common-redis/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/babel.config.js
+  detection_source: datax-ui/babel.config.js
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base
+  detection_source: Repo Metadata
+- name: Hystrix
+  description: Latency and fault tolerance library
+  website_url: https://github.com/Netflix/Hystrix
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Fault Tolerance Tools
+  image_url: https://img.stackshare.io/service/1758/cde558e9b4a1f07ff99f90d637c38388.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:32:23.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/.travis.yml
+  detection_source: datax-ui/.travis.yml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.18.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: svgo
+  website_url: https://github.com/svg/svgo
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8443/2473585.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: cn.hutool:hutool-all
+  description: 提供丰富的Java工具方法，此模块为Hutool所有模块的打包汇总，最终形式为一个jar包
+  license: FSFAP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-core/pom.xml
+  detection_source: datax-common/datax-common-core/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: com.alibaba:fastjson
+  description: Fastjson is a JSON processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-core/pom.xml
+  detection_source: datax-common/datax-common-core/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: com.aliyun.oss:aliyun-sdk-oss
+  description: Aliyun OSS SDK for Java Copyright
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-modules/file-service-parent/file-service/pom.xml
+  detection_source: datax-modules/file-service-parent/file-service/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jdk8
+  description: Add-on module for Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-core/pom.xml
+  detection_source: datax-common/datax-common-core/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+  description: Add-on module to support JSR-310
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-core/pom.xml
+  detection_source: datax-common/datax-common-core/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: com.fasterxml.jackson.module:jackson-module-parameter-names
+  description: Add-on module for Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-core/pom.xml
+  detection_source: datax-common/datax-common-core/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: com.google.zxing:core
+  description: Core barcode encoding/decoding library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-qrcode/pom.xml
+  detection_source: datax-common/datax-common-qrcode/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: com.google.zxing:javase
+  description: Java SE-specific extensions to core ZXing library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-qrcode/pom.xml
+  detection_source: datax-common/datax-common-qrcode/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: commons-beanutils:commons-beanutils
+  description: Apache Commons BeanUtils provides an easy-to-use but flexible wrapper
+    around reflection and introspection
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-core/pom.xml
+  detection_source: datax-common/datax-common-core/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: commons-codec:commons-codec
+  description: The Apache Commons Codec package contains simple encoder and decoders
+    for various formats such as Base64 and Hexadecimal
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-core/pom.xml
+  detection_source: datax-common/datax-common-core/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: commons-fileupload:commons-fileupload
+  description: The Apache Commons FileUpload component provides a simple yet flexible
+    means of adding support for multipart file upload functionality to servlets and
+    web applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-core/pom.xml
+  detection_source: datax-common/datax-common-core/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-core/pom.xml
+  detection_source: datax-common/datax-common-core/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: io.springfox:springfox-bean-validators
+  description: JSON API documentation for spring based applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-gateway/pom.xml
+  detection_source: datax-gateway/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: io.springfox:springfox-swagger2
+  description: JSON API documentation for spring based applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-gateway/pom.xml
+  detection_source: datax-gateway/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: io.swagger:swagger-models
+  description: Examples and server integrations for generating the Swagger API Specification
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-gateway/pom.xml
+  detection_source: datax-gateway/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: javax.servlet:javax.servlet-api
+  description: Java.net - The Source for Java Technology Collaboration
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-core/pom.xml
+  detection_source: datax-common/datax-common-core/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-mybatis/pom.xml
+  detection_source: datax-common/datax-common-mybatis/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-core/pom.xml
+  detection_source: datax-common/datax-common-core/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: org.apache.commons:commons-pool2
+  description: The Apache Commons Object Pooling Library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-redis/pom.xml
+  detection_source: datax-common/datax-common-redis/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: org.hibernate.validator:hibernate-validator
+  description: Hibernate's Bean Validation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-core/pom.xml
+  detection_source: datax-common/datax-common-core/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:32:23.000000000 Z
+- name: org.springframework.boot:spring-boot-configuration-processor
+  description: Spring Boot Configuration Processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:32:23.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:32:23.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-aop
+  description: Starter for aspect-oriented programming with Spring AOP and AspectJ
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-log/pom.xml
+  detection_source: datax-common/datax-common-log/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-redis
+  description: Starter for using Redis key-value data store with Spring Data Redis
+    and the Lettuce client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-redis/pom.xml
+  detection_source: datax-common/datax-common-redis/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-mail
+  description: Starter for using Java Mail and Spring Framework's email sending support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-modules/email-service-parent/email-service/pom.xml
+  detection_source: datax-modules/email-service-parent/email-service/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:32:23.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-auth/pom.xml
+  detection_source: datax-auth/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: org.springframework.cloud:spring-cloud-config-server
+  description: Spring-cloud-config-server
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-config/pom.xml
+  detection_source: datax-config/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: org.springframework.cloud:spring-cloud-starter-config
+  description: Spring Cloud Starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-auth/pom.xml
+  detection_source: datax-auth/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: org.springframework.security:spring-security-core
+  description: Spring-security-core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-core/pom.xml
+  detection_source: datax-common/datax-common-core/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: org.springframework:spring-webmvc
+  description: Spring Web MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-core/pom.xml
+  detection_source: datax-common/datax-common-core/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: p6spy:p6spy
+  description: Property
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-common/datax-common-mybatis/pom.xml
+  detection_source: datax-common/datax-common-mybatis/pom.xml
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: "@vue/cli-plugin-babel"
+  description: Babel plugin for vue-cli
+  package_url: https://www.npmjs.com/@vue/cli-plugin-babel
+  version: 4.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16006/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: "@vue/cli-plugin-eslint"
+  description: Eslint plugin for vue-cli
+  package_url: https://www.npmjs.com/@vue/cli-plugin-eslint
+  version: 4.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16035/default_b8a893285867e41b5fc4a7631d8fc2da834d778c.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: "@vue/cli-plugin-unit-jest"
+  description: Unit-jest plugin for vue-cli
+  package_url: https://www.npmjs.com/@vue/cli-plugin-unit-jest
+  version: 4.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16558/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: "@vue/cli-service"
+  description: Local service for vue-cli projects
+  package_url: https://www.npmjs.com/@vue/cli-service
+  version: 4.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15990/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: "@vue/test-utils"
+  description: Utilities for testing Vue components
+  package_url: https://www.npmjs.com/@vue/test-utils
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16231/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 23.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: babel-plugin-dynamic-import-node
+  description: Babel plugin to transpile import
+  package_url: https://www.npmjs.com/babel-plugin-dynamic-import-node
+  version: 2.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16308/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: connect
+  description: High performance middleware framework
+  package_url: https://www.npmjs.com/connect
+  version: 3.6.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16202/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 3.6.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: element-ui
+  description: A Component Library for Vue.js
+  package_url: https://www.npmjs.com/element-ui
+  version: 2.13.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16240/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: eslint-plugin-vue
+  description: Official ESLint plugin for Vue.js
+  package_url: https://www.npmjs.com/eslint-plugin-vue
+  version: 6.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15950/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: html-webpack-plugin
+  description: Simplifies creation of HTML files to serve your webpack bundles
+  package_url: https://www.npmjs.com/html-webpack-plugin
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15841/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: nprogress
+  description: Simple slim progress bars
+  package_url: https://www.npmjs.com/nprogress
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17061/default_23002b02644a8cb313a0f53f43df271731022a9e.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: path-to-regexp
+  description: Express style path to RegExp utility
+  package_url: https://www.npmjs.com/path-to-regexp
+  version: 2.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16316/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 8.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: screenfull
+  description: Simple wrapper for cross-browser usage of the JavaScript Fullscreen
+    API
+  package_url: https://www.npmjs.com/screenfull
+  version: 5.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17952/default_d8903d76dded6915fe2da53370802097e7af05c2.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: script-ext-html-webpack-plugin
+  description: Enhances html-webpack-plugin functionality with async and defer attributes
+    for script elements
+  package_url: https://www.npmjs.com/script-ext-html-webpack-plugin
+  version: 2.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17955/default_cc042fd7c0a9cf091d301af307c99c8b7b08b8bc.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: serve-static
+  description: Serve static files
+  package_url: https://www.npmjs.com/serve-static
+  version: 1.13.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16295/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: svg-sprite-loader
+  description: Webpack loader for creating SVG sprites
+  package_url: https://www.npmjs.com/svg-sprite-loader
+  version: 4.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17006/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: svgo
+  description: Nodejs-based tool for optimizing SVG vector graphics files
+  package_url: https://www.npmjs.com/svgo
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16716/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.6.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: vue-router
+  description: Official router for Vue.js 2
+  package_url: https://www.npmjs.com/vue-router
+  version: 3.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.6.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/huhuhuHR/datax-cloud-base/blob/master/datax-ui/package.json
+  detection_source: datax-ui/package.json
+  last_updated_by: yuwei
+  last_updated_on: 2020-12-03 09:30:54.000000000 Z
